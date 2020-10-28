@@ -1,3 +1,5 @@
+package task1;
+
 public class Application {
     public static void main(String[] args) {
         //摄像头开关
