@@ -1,6 +1,7 @@
 /**
  * 摄像头操作者:控制摄像头开关
  */
+
 public class CamSwitchOperation {
 
     Command command;
