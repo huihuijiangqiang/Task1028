@@ -1,3 +1,6 @@
+/**
+ * 灯操作者:控制灯开关
+ */
 public class LightSwitchOperation {
     Command command;
 

@@ -1,3 +1,6 @@
+/**
+ * 摄像头开关接口实现
+ */
 public class Command_Cam_IPML implements  Command {
     Group_Cam_Switch cs;
     public Command_Cam_IPML( Group_Cam_Switch cs){
@@ -10,4 +13,5 @@ public class Command_Cam_IPML implements  Command {
     public void CloseSwitch() {
         cs.CloseCam();
     }
+
 }
