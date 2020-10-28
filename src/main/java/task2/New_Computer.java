@@ -1,5 +1,8 @@
 package task2;
 
+/**
+ * 应用
+ */
 public class New_Computer implements HDMI_Interface {
 
     public void connectHDMI() {

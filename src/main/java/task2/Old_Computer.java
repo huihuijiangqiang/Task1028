@@ -1,5 +1,8 @@
 package task2;
 
+/**
+ * 应用
+ */
 public class Old_Computer implements VGA_Interface {
     public void connectVGA() {
         turnOn();

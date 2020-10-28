@@ -1,5 +1,8 @@
 package task2;
 
+/**
+ * 应用
+ */
 public class Application {
     public static void main(String[] args) {
         New_Computer new_computer=new New_Computer();
