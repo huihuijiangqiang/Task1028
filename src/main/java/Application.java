@@ -14,6 +14,7 @@ public class Application {
         camSwitchOperation.OpenCam();
         camSwitchOperation.CloseCam();
 
+        //灯开关操作
         LightSwitchOperation lightSwitchOperation=new LightSwitchOperation();
         lightSwitchOperation.setCommand(command1);
         lightSwitchOperation.OpenCam();
