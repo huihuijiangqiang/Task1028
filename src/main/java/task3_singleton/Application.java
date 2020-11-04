@@ -17,14 +17,14 @@ class  MyFrame extends JFrame{
     MyFrame(String title){
         setTitle(title);
         Moon moon=Moon.getMoon();
-        str=moon.show();
+        str=moon.show()+moon;
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setVisible(true);
         repaint();
     }
     public void paint(Graphics g){
         super.paint(g);
-        g.setFont(new Font("宋体",Font.BOLD,14));
+        g.setFont(new Font("宋体",Font.BOLD,16));
         g.drawString(str,5,100);
     }
 }
